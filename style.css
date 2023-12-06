@@ -24,23 +24,27 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    content: "";
+    background-image: url(/images/zerosandones.jpg);
+    background-size: contain; /*i love how it makes it look glitchy */
+    background-position: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .top-container{
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-container{
     text-align: center;
     margin: 20px;
     padding: 20px;  
-    background-image: url(/images/zeros\ and\ ones.jpg) center/cover;
-    background-size: contain;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 label{
@@ -74,6 +78,9 @@ button{
 
 .middle-container{
     text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .about-me{
@@ -85,10 +92,12 @@ button{
     font: bold;
     font-size: 120%;
     margin: 2em;
+
 }
 
 .explore{
     padding: 5em;
+    text-align: center;
 }
 
 
@@ -99,4 +108,20 @@ footer{
     display: grid;
     grid-template-columns: 2fr;
     background-color: rgb(68, 167, 111);
+}
+
+.proj1{
+    margin-bottom: 20px;
+}
+
+.proj2{
+    margin-bottom: 20px;
+}
+
+.proj3{
+    margin-bottom: 20px;
+}
+
+.imagess{
+    max-width: 70%;
 }
