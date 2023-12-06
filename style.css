@@ -1,0 +1,102 @@
+.header-container{
+    display: grid;
+    grid-template-columns: 2fr;
+    text-align: center;
+    background-color: rgb(68, 167, 111);
+    padding: 1em;
+}
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    font: bold;
+    font-size: 120%;
+    margin: 2em;
+}
+
+html{
+    height: 100%;
+    color: white;
+    background-color: black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-container{
+    text-align: center;
+}
+
+.contact-container{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;  
+    background-image: url(/images/zeros\ and\ ones.jpg) center/cover;
+    background-size: contain;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(68, 167, 111);
+    color: white;
+    border:rgb(68, 167, 111);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.homepage{
+    position: relative;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 2em;
+    margin: 4em;
+}
+.homepage::before{
+    content: "";
+    background-size: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.middle-container{
+    text-align: center;
+}
+
+.about-me{
+    text-align: center;
+}
+
+.explore a{
+    color: white;
+    font: bold;
+    font-size: 120%;
+    margin: 2em;
+}
+
+.explore{
+    padding: 5em;
+}
+
+
+footer{
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 2fr;
+    background-color: rgb(68, 167, 111);
+}
